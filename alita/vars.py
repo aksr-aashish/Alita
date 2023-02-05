@@ -12,7 +12,7 @@ class Config:
 
     LOGGER = True
     BOT_TOKEN = config("BOT_TOKEN", default=None)
-    APP_ID = int(config("APP_ID", "6"))
+    APP_ID = int(config("APP_ID", default=None))
     API_HASH = config("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
     OWNER_ID = int(config("OWNER_ID", default=1198820588))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP", "-1001744920557"))
