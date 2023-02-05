@@ -37,7 +37,7 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "5212174041:AAGI--dTJDXkHo9-gNpZBpjv8iyRzS6m8N8"
+    BOT_TOKEN = "5212174041:AAGbPP_gU-Ysb6zpaoQFPKJABLnGNAwIN4g"
     APP_ID = 6  # Your APP_ID from Telegram
     API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
     OWNER_ID = 5001573230  # Your telegram user id
