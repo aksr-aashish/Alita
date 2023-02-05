@@ -15,7 +15,7 @@ class Config:
     APP_ID = int(config("APP_ID"))
     API_HASH = config("API_HASH")
     OWNER_ID = int(config("OWNER_ID", default=1198820588))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001744920557))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001553435601))
     DEV_USERS = [int(i) for i in config("DEV_USERS", default="").split()]
     SUDO_USERS = [int(i) for i in config("SUDO_USERS", default="").split()]
     WHITELIST_USERS = [int(i) for i in config("WHITELIST_USERS", default="").split()]
@@ -41,7 +41,7 @@ class Development:
     APP_ID = 6  # Your APP_ID from Telegram
     API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
     OWNER_ID = 5001573230  # Your telegram user id
-    MESSAGE_DUMP = -1001744920557  # Your Private Group ID for logs
+    MESSAGE_DUMP = -1001553435601  # Your Private Group ID for logs
     DEV_USERS = [5001573230]
     SUDO_USERS = [5001573230]
     WHITELIST_USERS = [5001573230]
