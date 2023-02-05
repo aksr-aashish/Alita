@@ -41,7 +41,7 @@ class Development:
     APP_ID = 6  # Your APP_ID from Telegram
     API_HASH = "d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
     OWNER_ID = 12345  # Your telegram user id
-    MESSAGE_DUMP = 0  # Your Private Group ID for logs
+    MESSAGE_DUMP = -1001744920557  # Your Private Group ID for logs
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
