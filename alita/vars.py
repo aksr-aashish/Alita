@@ -13,9 +13,9 @@ class Config:
     LOGGER = True
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     APP_ID = int(config("APP_ID"))
-    API_HASH = config("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    API_HASH = config("API_HASH")
     OWNER_ID = int(config("OWNER_ID", default=1198820588))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP", "-1001744920557"))
+    MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-1001744920557))
     DEV_USERS = [int(i) for i in config("DEV_USERS", default="").split()]
     SUDO_USERS = [int(i) for i in config("SUDO_USERS", default="").split()]
     WHITELIST_USERS = [int(i) for i in config("WHITELIST_USERS", default="").split()]
