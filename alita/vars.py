@@ -51,5 +51,5 @@ class Development:
     PREFIX_HANDLER = ["!", "/"]
     SUPPORT_GROUP = "Vexana_Support"
     SUPPORT_CHANNEL = "Vexana_Support"
-    ENABLED_LOCALES = ["ENABLED_LOCALES"]
+    ENABLED_LOCALES = ["en"]
     WORKERS = 8
