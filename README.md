@@ -74,6 +74,8 @@ It really motivates me to continue this project further.
   `. venv/bin/activate` (Linux)
   `venv\Scripts\activate` (Windows)
 - Run the bot using `python3 -m alita`
+- Run the bot using `pip3 install .` Requirement
+
 
 ### Docker
 
