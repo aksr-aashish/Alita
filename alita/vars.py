@@ -45,7 +45,7 @@ class Development:
     DEV_USERS = [5001573230]
     SUDO_USERS = [5001573230]
     WHITELIST_USERS = [5001573230]
-    DB_URI = "mongodb+srv://vexana:vexana@cluster0.isrg3.mongodb.net/?retryWrites=true&w=majority"
+    DB_URI = "mongodb+srv://scanner:vexana@cluster0.yrs1w.mongodb.net/?retryWrites=true&w=majority"
     DB_NAME = "vexu"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
