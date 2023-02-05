@@ -37,19 +37,19 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
+    BOT_TOKEN = "5212174041:AAGI--dTJDXkHo9-gNpZBpjv8iyRzS6m8N8"
     APP_ID = 6  # Your APP_ID from Telegram
-    API_HASH = "d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
-    OWNER_ID = 12345  # Your telegram user id
+    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"  # Your APP_HASH from Telegram
+    OWNER_ID = 5001573230  # Your telegram user id
     MESSAGE_DUMP = -1001744920557  # Your Private Group ID for logs
-    DEV_USERS = []
-    SUDO_USERS = []
-    WHITELIST_USERS = []
-    DB_URI = "mongodb_url"
-    DB_NAME = "alita"
+    DEV_USERS = [5001573230]
+    SUDO_USERS = [5001573230]
+    WHITELIST_USERS = [5001573230]
+    DB_URI = "mongodb+srv://vexana:vexana@cluster0.isrg3.mongodb.net/?retryWrites=true&w=majority"
+    DB_NAME = "vexu"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "Vexana_Support"
+    SUPPORT_CHANNEL = "Vexana_Support"
     ENABLED_LOCALES = ["ENABLED_LOCALES"]
     WORKERS = 8
