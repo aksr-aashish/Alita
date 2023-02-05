@@ -1,12 +1,7 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton as zkb
 
-def ikb(data: dict, row_width: int = 2):
-    """
-    Converts a dict to pyrogram buttons
-    Ex: dict_to_keyboard({"click here": "this is callback data"})
-    """
-    return keyboard(data.items(), row_width=row_width)
+
 
 
 def keyboard(buttons_list, row_width: int = 2):
@@ -27,6 +22,14 @@ def keyboard(buttons_list, row_width: int = 2):
     ]
     buttons.add(*data)
     return buttons
+
+def ikb(data: dict, row_width: int = 2):
+    """
+    Converts a dict to pyrogram buttons
+    Ex: dict_to_keyboard({"click here": "this is callback data"})
+    """
+    return keyboard(data.items(), row_width=row_width)
+
 # def ikb(rows=None):
 #     if rows is None:
 #         rows = []
